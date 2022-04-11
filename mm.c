@@ -128,7 +128,7 @@ void mm_free(void *ptr)
 }
 
 /*
- * mm_realloc - reallocat ptr block with the size.
+ * mm_realloc - reallocate 'ptr' block with new size 'size'.
  */
 void *mm_realloc(void *ptr, size_t size)
 {

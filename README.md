@@ -2,12 +2,15 @@
 
 ## Description
 
-- A dynamic memory allocator for C programs, i.e., my own version of `malloc`, `free`, and `realloc` routines.
+- A dynamic memory allocator for C programs, i.e., my own version of `malloc`,
+  `free`, and `realloc` routines.
 - The 6th lab of [15-213: Introduction to Computer Systems.](https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15213-f15/www/schedule.html)
 - I use implicit list to keep track of free blocks.
 - Placement policy: first fit or next fit (if you define `NEXT_FIT` macro)
-- Splitting policy: splitting only if the size of remainder would equal or exceed the minimum block size.
-- This is a special-purpose allocator not like `libc` `malloc` package which is general-purpose.
+- Splitting policy: splitting only if the size of remainder would equal or
+  exceed the minimum block size.
+- This is a special-purpose allocator not like `libc` `malloc` package which is
+  general-purpose.
 
 ## How to test it?
 - Open your terminal and run the following:
